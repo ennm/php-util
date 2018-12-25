@@ -1,0 +1,25 @@
+{
+    "name": "ennm/php-util",
+    "description": "some reusable function",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ennm",
+            "email": "xy700000@163.com",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "php",
+        "tools",
+        "util"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jwt\\": "Jwt/"
+        }
+    },
+    "require": {
+        "lcobucci/jwt": "^3.2"
+    }
+}
